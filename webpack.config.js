@@ -3,7 +3,7 @@ const webpack = require('webpack')
 const nodeExternals = require('webpack-node-externals')
 
 var browserConfig = {
-  entry: './src/client/components/App.tsx',
+  entry: './src/index.tsx',
   devtool: 'inline-source-map',
   module: {
     rules: [

@@ -3,8 +3,9 @@
     "outDir": "./dist/",
     "rootDir": "./src",
     "sourceMap": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "module": "commonjs",
+    "lib": ["dom", "es2015.promise", "es2015", "es2016", "es5", "esnext"],
     "target": "es5",
     "jsx": "react"
   },
